@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-11-06T19:37:40.865Z",
+  "ruleset": "wcag2a, wcag2aa, wcag21aa",
+  "views": {
+    "empty": 0,
+    "overview-light": 0,
+    "traces-light": 0,
+    "trace-detail-light": 0,
+    "compare-light": 0,
+    "compare-dark": 0,
+    "overview-dark": 0,
+    "traces-dark": 0
+  },
+  "total_violations": 0
+}

@@ -5,3 +5,5 @@ dist
 *.local
 .env
 .DS_Store
+/reports/vitest.json
+/reports/playwright.json

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-11-06T19:44:33.767Z",
+  "node": "v26.5.0",
+  "cpu": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+  "platform": "win32 x64",
+  "parse": {
+    "file": "public/samples/baseline.jsonl",
+    "spans": 3914,
+    "bytes": 2028349,
+    "median_ms": 18.7,
+    "spans_per_sec": 208797,
+    "mb_per_sec": 103.2,
+    "runs": 9
+  },
+  "scale": {
+    "spans": 101764,
+    "bytes": 53360886,
+    "parse_ms": 491.1,
+    "parse_spans_per_sec": 207210,
+    "aggregate_ms": 95.9,
+    "filter_ms": 21.5
+  },
+  "bundle": {
+    "total_raw_bytes": 812048,
+    "total_gzip_bytes": 235341,
+    "initial_gzip_bytes": 126060,
+    "files": [
+      {
+        "name": "index-CDfpj6CM.css",
+        "raw": 7163,
+        "gzip": 2121
+      },
+      {
+        "name": "index-DhItFpPd.js",
+        "raw": 418433,
+        "gzip": 123939
+      },
+      {
+        "name": "OverviewView-BQwalVgh.js",
+        "raw": 386452,
+        "gzip": 109281
+      }
+    ]
+  },
+  "time_to_first_row": {
+    "spans": 101764,
+    "runs_ms": [
+      740,
+      627,
+      643
+    ],
+    "median_ms": 643
+  },
+  "tests": {
+    "unit": {
+      "passed": 43,
+      "failed": 0,
+      "total": 43
+    },
+    "e2e": {
+      "passed": 11,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 0
+    },
+    "axe": {
+      "views_checked": 8,
+      "violations": 0
+    }
+  }
+}

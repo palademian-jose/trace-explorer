@@ -1,10 +1,10 @@
 | Metric | Result |
 | --- | --- |
-| Parse throughput (sample, 3.9k spans) | 208,797 spans/s (103.2 MB/s, median of 9 runs) |
-| Parse + validate 100k spans | 491.1 ms (207,210 spans/s) |
-| Aggregate 100k spans (traces + overview) | 95.9 ms |
-| Filter 100k spans | 21.5 ms |
-| Load to first table row, 100k spans (Chromium, median of 3) | 0.64 s |
+| Parse throughput (sample, 3.9k spans) | 192,765 spans/s (95.3 MB/s, median of 9 runs) |
+| Parse + validate 100k spans | 624.5 ms (162,947 spans/s) |
+| Aggregate 100k spans (traces + overview) | 105.9 ms |
+| Filter 100k spans | 21.4 ms |
+| Load to first table row, 100k spans (Chromium, median of 3) | 0.87 s |
 | Bundle size, gzip (all assets) | 229.8 kB |
 | Bundle size, gzip (initial load) | 123.1 kB |
 | Unit tests (Vitest) | 43 passed, 0 failed |

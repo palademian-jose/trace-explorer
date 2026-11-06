@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:44:33.767Z",
+  "generated_at": "2026-11-06T19:46:50.529Z",
   "node": "v26.5.0",
   "cpu": "AMD Ryzen AI 7 350 w/ Radeon 860M",
   "platform": "win32 x64",
@@ -7,18 +7,18 @@
     "file": "public/samples/baseline.jsonl",
     "spans": 3914,
     "bytes": 2028349,
-    "median_ms": 18.7,
-    "spans_per_sec": 208797,
-    "mb_per_sec": 103.2,
+    "median_ms": 20.3,
+    "spans_per_sec": 192765,
+    "mb_per_sec": 95.3,
     "runs": 9
   },
   "scale": {
     "spans": 101764,
     "bytes": 53360886,
-    "parse_ms": 491.1,
-    "parse_spans_per_sec": 207210,
-    "aggregate_ms": 95.9,
-    "filter_ms": 21.5
+    "parse_ms": 624.5,
+    "parse_spans_per_sec": 162947,
+    "aggregate_ms": 105.9,
+    "filter_ms": 21.4
   },
   "bundle": {
     "total_raw_bytes": 812048,
@@ -45,11 +45,11 @@
   "time_to_first_row": {
     "spans": 101764,
     "runs_ms": [
-      740,
-      627,
-      643
+      833,
+      873,
+      966
     ],
-    "median_ms": 643
+    "median_ms": 873
   },
   "tests": {
     "unit": {

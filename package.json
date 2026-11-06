@@ -21,7 +21,7 @@
     "bench": "tsx scripts/bench.ts"
   },
   "dependencies": {
-    "@tanstack/react-table": "^9.3.1",
+    "@tanstack/react-table": "^8.21.3",
     "@tanstack/react-virtual": "^3.14.26",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",

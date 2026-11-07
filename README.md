@@ -5,7 +5,7 @@ and the money went: totals, latency percentiles, cost by model and feature, a sp
 every trace, filters, a before/after comparison and CSV export. There is no backend and no
 telemetry. Files are read in your browser and never uploaded.
 
-Live demo (after the owner enables GitHub Pages): `https://<owner>.github.io/trace-explorer/`
+Live demo: https://palademian-jose.github.io/trace-explorer/
 
 ## Problem
 
@@ -109,8 +109,8 @@ Deploying under a sub-path:
 VITE_BASE=/trace-explorer/ npm run build
 ```
 
-`.github/workflows/pages.yml` does this on every push to `main` and uploads a Pages artifact. The
-owner has to enable Pages (source: GitHub Actions) in the repository settings.
+`.github/workflows/pages.yml` does this on every push to `main` and deploys the result to GitHub
+Pages (source: GitHub Actions).
 
 ## Results
 
